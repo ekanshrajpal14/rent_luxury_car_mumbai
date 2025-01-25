@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rentluxurycarsmumbai.com/sitemap.xml
