@@ -9,13 +9,12 @@
     padding-top: 4vw;
     width: 100%;
     display: flex;
-    
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.review_data{
+.review_data {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -30,7 +29,7 @@
     /* background-color: rgb(252, 252, 252); */
     padding: 2vw;
     height: 400px;
-    
+
 }
 
 .swiper-slide {
@@ -39,7 +38,8 @@
     box-shadow: 0px 0px 10px rgb(219, 219, 219);
     transition: cubic-bezier(0.19, 1, 0.22, 1) .4s;
     position: relative;
-    .comma{
+
+    .comma {
         position: absolute;
         top: 5%;
         left: 5%;
@@ -47,40 +47,48 @@
         font-size: 3vw;
     }
 }
-.next{
+
+.next {
     scale: .9 !important;
     opacity: .5 !important;
 }
-.swiper-slide-next{
+
+.swiper-slide-next {
     scale: 1 !important;
     opacity: 1 !important;
 }
-.swiper-slide-active{
-    scale: .9!important;
-    opacity: .5 !important;
-}
-.swiper-slide-prev{
-    scale: .9!important;
+
+.swiper-slide-active {
+    scale: .9 !important;
     opacity: .5 !important;
 }
 
-.review_dataset{
+.swiper-slide-prev {
+    scale: .9 !important;
+    opacity: .5 !important;
+}
+
+.review_dataset {
     text-align: center;
-    h4{
+
+    h4 {
         margin-top: 2vw;
     }
 }
-.stars_reviews{
+
+.stars_reviews {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 1.5vw;
     gap: 1vw;
-    i{
+
+    i {
         color: #FBBF25;
     }
 }
-.review_logo{
+
+.review_logo {
     width: 70px;
     height: 70px;
     position: absolute;
@@ -90,3 +98,52 @@
 
 
 
+@media screen and (max-width:600px) {
+
+    /* reviews */
+    .review_text {
+        padding-top: 10vw;
+    }
+
+    .swiper-slide {
+        .comma {
+            position: absolute;
+            top: 2%;
+            left: 5%;
+            color: #dcf4eb;
+            font-size: 11vw;
+            z-index: -1;
+        }
+    }
+
+    .stars_reviews {
+        margin-top: 10vw;
+    }
+
+    .review_dataset {
+        padding: 0 3vw;
+        padding-top: 10vw;
+    }
+
+    .review_data {
+        h2 {
+            text-align: center;
+            font-size: 5vw;
+            margin-top: 3vw;
+        }
+
+        p {
+            font-size: 3vw;
+            margin: 3vw 0;
+        }
+
+    }
+
+    .reviews_page {
+
+        .swiper-slide-active {
+            scale: 1 !important;
+            opacity: 1 !important;
+        }
+    }
+}

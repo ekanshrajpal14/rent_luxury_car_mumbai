@@ -383,7 +383,7 @@ section#home {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("./images/home_image_new.png");
+    background-image: url("../images/home_image_new.png");
 }
 
 .circle_big {
@@ -557,7 +557,7 @@ section {
     height: 60%;
     background-size: cover;
     background-position: center;
-    background-image: url("./images/about_page_img3.avif");
+    background-image: url("../images/about_page_img3.avif");
     clip-path: polygon(67% 0, 97% 37%, 65% 100%, 0 100%, 0 0);
 
 }
@@ -570,7 +570,7 @@ section {
     left: 44%;
     background-size: cover;
     background-position: center;
-    background-image: url("./images/about_page_img4.avif");
+    background-image: url("../images/about_page_img4.avif");
     clip-path: polygon(38% 19%, 0% 100%, 100% 100%);
 }
 
@@ -582,7 +582,7 @@ section {
     height: 60%;
     background-size: cover;
     background-position: center;
-    background-image: url("./images/about_page_new_r1.avif");
+    background-image: url("../images/about_page_new_r1.avif");
     clip-path: polygon(63% 0, 96% 66%, 64% 99%, 0 100%, 0 0);
 }
 
@@ -591,11 +591,10 @@ section {
     height: 50%;
     position: absolute;
     top: 20%;
-    background-image: url("./images/about_page_new_r2.avif");
+    background-image: url("../images/about_page_new_r2.avif");
     left: 42.5%;
     background-size: cover;
     background-position: right;
-    /* background-image: url("./images/about_page_img6.avif"); */
     clip-path: polygon(100% 0, 0 0, 43% 90%);
 }
 
@@ -720,11 +719,11 @@ section {
 }
 
 .box_keys {
-    background-image: url(./images/keys_img.avif);
+    background-image: url(../images/keys_img.avif);
 }
 
 .box_wed {
-    background-image: url(./images/wedding.webp);
+    background-image: url(../images/wedding.webp);
 }
 
 .reverse_card {
@@ -732,11 +731,11 @@ section {
 }
 
 .box_chauf {
-    background-image: url(./images/chauff_image.avif);
+    background-image: url(../images/chauff_image.avif);
 }
 
 .box_mumbai {
-    background-image: url(./images/mumbai_img.webp);
+    background-image: url(../images/mumbai_img.webp);
 }
 
 .content_serve {
@@ -881,7 +880,7 @@ section {
 /* PARRALALAX */
 
 #parallaxsection {
-    background: url(./images/maybach_new.avif) repeat fixed 100%;
+    background: url(../images/maybach_new.avif) repeat fixed 100%;
     background-position: center;
     background-size: cover;
     display: flex;

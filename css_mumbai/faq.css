@@ -14,7 +14,6 @@
     --fw-regular: 400;
     --fw-medium: 500;
     --fw-bold: 700;
-
     /* Transition & Box Shadow */
     --transition: 0.4s ease-in-out;
     --shadow: 0px 60px 56px -12px rgba(9, 40, 163, 0.05);
@@ -40,9 +39,6 @@ p {
     color: var(--color-text);
     font-size: var(--fs-md);
     font-weight: var(--fw-regular);
-
-
-
 
     .container {
         width: 100%;
@@ -638,13 +634,13 @@ section#services {
         color: #878787;
     }
     
+    .gradient {
+        background: #833ab4;
+        background: linear-gradient(to right,
+                #833ab4, #fd1d1d, #fcb045);
+    }
 }
 
-.gradient {
-    background: #833ab4;
-    background: linear-gradient(to right,
-            #833ab4, #fd1d1d, #fcb045);
-}
 
 
 

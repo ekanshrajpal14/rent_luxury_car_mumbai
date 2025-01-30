@@ -69,3 +69,18 @@ const swiper = new Swiper('.swiper', {
 
 
 });
+
+
+
+function redirectIfNeeded() {
+    const path = window.location.pathname; // Get the current path
+
+    // Check if the path is exactly /carcategories/ (or ends with a trailing slash)
+    if (path === '/carcategories/' || path === '/carcategories') {
+        console.log('Redirecting to home page...');
+        window.location.replace('/'); // Redirect to the home page
+    }
+}
+
+// Call the function on page load
+redirectIfNeeded();
