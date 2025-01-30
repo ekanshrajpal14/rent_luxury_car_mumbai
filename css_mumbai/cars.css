@@ -30,7 +30,7 @@
     /* Transition & Box Shadow */
     --transition: 0.4s ease-in-out;
     --shadow: 0px 60px 56px -12px rgba(9, 40, 163, 0.05);
-    --paragraphSizeResp:14px
+    --paragraphSizeResp: 14px
 }
 
 * {
@@ -141,7 +141,7 @@ section {
         height: 100%;
         background-size: cover;
         background-position: 60%;
-        background-image: url(../carcategories/car_images/car_cover_pic.avif);
+        background-image: url(../carcategories/car_images/car_cover_pic.jpg);
     }
 
     .car_divider {
@@ -366,7 +366,7 @@ section {
         .car_left {
             width: 100%;
             background-size: cover;
-            background-image: url(../carcategories/car_images/car_cover_pic.avif);
+            background-image: url(../carcategories/car_images/car_cover_pic.jpg);
         }
 
         .text_content {
@@ -379,7 +379,7 @@ section {
 
             h1 {
                 color: #fff;
-                font-size:35px;
+                font-size: 35px;
             }
 
             h3 {
@@ -422,41 +422,52 @@ section {
         .container_local {
             padding: 40px 0;
         }
+
         .why {
-            padding:20px 0px;
+            padding: 20px 0px;
             gap: 20px;
             width: 92%;
         }
-        .why_content{
+
+        .why_content {
             flex-direction: column;
             gap: 20px;
         }
-        .why_box{
+
+        .why_box {
             width: 95%;
-            p{
+
+            p {
                 font-size: 14px;
             }
         }
 
-        .grid_cont{
+        .grid_cont {
             padding: 50px;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         }
-        .specification{
-            ul{
-                li{
+
+        .specification {
+            ul {
+                li {
                     font-size: 14px;
                 }
             }
+        }
+
+        .illustration {
+            display: none;
         }
     }
 }
 
 @media screen and (max-width:400px) {
-    .car_page2{
+    .car_page2 {
 
-        .grid_cont{
+        .grid_cont {
             padding: 10px;
         }
+
+
     }
 }
