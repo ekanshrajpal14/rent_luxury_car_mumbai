@@ -49,6 +49,7 @@ body {
     width: 100%;
     height: auto;
     font-family: "Montserrat", sans-serif;
+    overflow-x: hidden;
 }
 
 section {
@@ -345,10 +346,39 @@ section {
 }
 
 
-@media screen and (min-width: 756px) and (max-width: 1024px) and (orientation: portrait) {
+@media screen and (min-width: 756px) and (max-width: 1024px) {
+    .logo {
+        width: 16%;
+    }
+
+    .car_divider p {
+        display: none;
+    }
+
+    .car_gallery {
+        .car_photo_section {
+            width: 100%;
+        }
+        .car_photo{
+            width: 260px;
+            height: 300px;
+        }
+    }
+    .car_page2{
+        .why{
+            width: 90%;
+            padding: 40px 0;
+        }
+        .why_box p{
+            font-size: 17px;
+        }
+        
+    }
+
     .car_page2 {
         .grid_cont {
-            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+            padding: 50px;
         }
     }
 

@@ -9,9 +9,6 @@
     justify-content: space-between;
     flex-direction: column;
     z-index: 99;
-}
-
-.whatsapp_call_cont {
 
     .call_circle,
     .call_circle1 {
@@ -600,6 +597,62 @@ a {
 /* end of footer and contact us */
 
 
+@media screen and (min-width: 756px) and (max-width: 1024px) {
+    .logo {
+        width: 16%;
+    }
+
+    .all_items {
+        width: 80%;
+    }
+
+    .items a {
+        font-size: 14px;
+    }
+
+    .line_wrappers {
+        h1 {
+            text-align: center;
+            font-size: 35px;
+        }
+    }
+
+    #parallaxinnertext>h3 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    #parallaxinnertext>h2 {
+        font-size: 30px;
+    }
+
+    #parallaxinnertext>p {
+        font-size: 15px;
+    }
+
+    #parallaxinnertext>div>a {
+        font-size: 17px;
+    }
+
+    .whatsapp_call_cont {
+        width: 10vw ;
+        height: auto;
+        gap: 10px;
+
+        .call_circle,
+        .call_circle1 {
+            width: 60px;
+            height: 60px;
+            font-size: 35px;
+        }
+
+        .call_circle::before,
+        .call_circle1::before {
+            width: 65px;
+            height: 65px;
+        }
+    }
+}
 
 @media screen and (max-width:768px) {
     .line_wrappers {
