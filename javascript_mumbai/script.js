@@ -84,3 +84,20 @@ function redirectIfNeeded() {
 
 // Call the function on page load
 redirectIfNeeded();
+
+
+var allImageClick = document.querySelectorAll(".image_click_handle");
+
+allImageClick.forEach((i) => {
+    i.addEventListener("click", function () {
+        let openUrl = i.getAttribute("data-link");
+        const currenturl = window.location.href;
+        if(currenturl.endsWith("/")){
+            openUrl = openUrl.slice(1);
+            console.log(openUrl);
+            
+        }
+        console.log(currenturl + openUrl);
+        window.location.href = (currenturl + openUrl);
+    })
+});

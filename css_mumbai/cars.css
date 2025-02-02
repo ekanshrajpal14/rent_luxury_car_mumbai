@@ -159,14 +159,16 @@ section {
 
         p {
             font-size: 17px;
+            text-wrap: nowrap;
             position: absolute;
             z-index: 99;
             bottom: 37%;
-            right: -46%;
+            right: -36%;
+            display: none;
             width: 160%;
             font-weight: 200;
             letter-spacing: 2px;
-            transform: rotate(-76.5deg);
+            transform: rotate(-78deg);
             color: #fff;
         }
     }
