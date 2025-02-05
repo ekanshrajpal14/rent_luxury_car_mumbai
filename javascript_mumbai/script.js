@@ -75,8 +75,8 @@ const swiper = new Swiper('.swiper', {
 function redirectIfNeeded() {
     const path = window.location.pathname; // Get the current path
 
-    // Check if the path is exactly /carcategories/ (or ends with a trailing slash)
-    if (path === '/carcategories/' || path === '/carcategories') {
+    // Check if the path is exactly /car-categories/ (or ends with a trailing slash)
+    if (path === '/car-categories/' || path === '/car-categories') {
         console.log('Redirecting to home page...');
         window.location.replace('/'); // Redirect to the home page
     }
@@ -92,10 +92,10 @@ allImageClick.forEach((i) => {
     i.addEventListener("click", function () {
         let openUrl = i.getAttribute("data-link");
         const currenturl = window.location.href;
-        if(currenturl.endsWith("/")){
+        if (currenturl.endsWith("/")) {
             openUrl = openUrl.slice(1);
             console.log(openUrl);
-            
+
         }
         console.log(currenturl + openUrl);
         window.location.href = (currenturl + openUrl);

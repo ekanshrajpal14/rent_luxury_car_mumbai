@@ -142,7 +142,7 @@ section {
         height: 100%;
         background-size: cover;
         background-position: 60%;
-        background-image: url(../carcategories/car_images/car_cover_pic.jpg);
+        background-image: url(../car-categories/car_images/car_cover_pic.jpg);
     }
 
     .car_divider {
@@ -339,7 +339,7 @@ section {
         background-repeat: no-repeat;
         right: 0%;
         background-size: contain;
-        background-image: url(../carcategories/icon/background-banner-colorful-gradient-design-b.png);
+        background-image: url(../car-categories/icon/background-banner-colorful-gradient-design-b.png);
     }
 
 }
@@ -362,20 +362,23 @@ section {
         .car_photo_section {
             width: 100%;
         }
-        .car_photo{
+
+        .car_photo {
             width: 260px;
             height: 300px;
         }
     }
-    .car_page2{
-        .why{
+
+    .car_page2 {
+        .why {
             width: 90%;
             padding: 40px 0;
         }
-        .why_box p{
+
+        .why_box p {
             font-size: 17px;
         }
-        
+
     }
 
     .car_page2 {
@@ -399,7 +402,7 @@ section {
         .car_left {
             width: 100%;
             background-size: cover;
-            background-image: url(../carcategories/car_images/car_cover_pic.jpg);
+            background-image: url(../car-categories/car_images/car_cover_pic.jpg);
         }
 
         .text_content {
