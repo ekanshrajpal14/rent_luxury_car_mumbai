@@ -1,3 +1,37 @@
+:root {
+    --yellow: #fdc239;
+    --light-yellow: #ffee80;
+    --black: #130f40;
+    --wp: #23ad00;
+    --grey: #898989;
+    --mainbg: #fffde5;
+    --white: #fff;
+    --light-color: #666;
+    --blue_content: rgb(0, 29, 114);
+    --bg_about: rgba(235, 235, 235, 0.452);
+    --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    --border: .1rem solid rgba(0, 0, 0, .1);
+    --green: rgb(40, 117, 117);
+    --color-primary: #fdc239;
+    --color-text: #545d7a;
+    --color-white: #fff;
+    --color-title: #242e4c;
+    --color-background: #f7f8fb;
+    --color-border: #dae1f5;
+    /* --color_default_footer:#ff5e14; */
+    /* Fonts */
+    --font-family: "Raleway", sans-serif;
+    --fs-sm: 1vw;
+    --fs-md: 1.2vw;
+    --fs-lg: 1vw;
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-bold: 700;
+    /* Transition & Box Shadow */
+    --transition: 0.4s ease-in-out;
+    --shadow: 0px 60px 56px -12px rgba(9, 40, 163, 0.05);
+    --paragraphSizeResp: 14px
+}
 .whatsapp_call_cont {
     width: 5vw;
     height: 8vw;
