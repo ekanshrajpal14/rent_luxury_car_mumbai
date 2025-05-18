@@ -104,7 +104,7 @@ body {
 }
 
 .modal_content img {
-    max-width: 100%;
+    max-width: 50%;
     margin: 20px 0;
     border-radius: 10px;
 }
